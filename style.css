@@ -3,54 +3,39 @@ body {
     width: 100%;
     margin: 0;
     background-color: #45d678;
+    font-family: sans-serif;
 }
 
 #container{
     position: relative;
     height: 90vh;
     width: 25%;
-    margin-left: 35%;
+    left: 35%;
     margin-top: 20px;;
     background-color: #292929;
     overflow: hidden;
 }
-#line{
-    position: absolute;
-    height: 600px;
-    width: 4%;
-    margin-left: 48%; 
-    background-color: rgba(255,255,255,0.2);
-    top: 0;
-}
-#line_1{
+.line{
     position: absolute;
     height: 150px;
     width: 4%;
     margin-left: 48%; 
     background-color: rgba(255,255,255,0.5);
+}
+#line_1{
     top: -150px;
 }
 #line_2{
-    position: absolute;
-    height: 150px;
-    width: 4%;
-    margin-left: 48%; 
-    background-color: rgba(255,255,255,0.5);
     top: 150px;
 }
 #line_3{
-    position: absolute;
-    height: 150px;
-    width: 4%;
-    margin-left: 48%; 
-    background-color: rgba(255,255,255,0.5);
     top: 450px;
 }
 .car{
     position: absolute;
     height: 60px;
     width: 40px;
-    border-radius: 5px;;
+    border-radius: 5px;
     box-shadow: 0px 1px 8px 0px black;
 }
 #car{
@@ -171,6 +156,10 @@ body {
 #score_div{
     position: absolute;
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 10%;
     font-size: 35px;
+    background-color: white;
+    color: #454545;
+    padding: 10px;
+    box-shadow: 4px 4px 0px 1px #808080;
 }
